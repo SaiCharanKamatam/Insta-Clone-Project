@@ -1,0 +1,54 @@
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.name-location{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 4px;
+}
+.dots-container{
+    display: flex;
+    justify-content: center;
+}
+.dots-container >img{
+    width: 26px;
+    margin-right: 8px;
+}
+.like-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.logos{
+    width: 21px;
+    padding: 4px;
+    margin-left: 6px;
+}
+.decription{
+    font-size: 0.9rem;
+    font-weight: 400;
+   margin: 10px 10px;
+}
+.card-container{
+    border: 1px solid grey;
+    margin: 12px;
+    border-radius: 4px;
+    width: 360px;
+}
+.date{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.noOfLikes{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.image-container>img{
+    width: 100%;
+}

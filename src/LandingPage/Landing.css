@@ -1,0 +1,46 @@
+.Landing {
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 70px;
+    padding-top: 40px;
+}
+
+.enter-btn {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    align-items: center;
+}
+
+.enter-btn>div {
+    color: green;
+    margin-bottom: 10px;
+    font-size: 1.9rem;
+}
+
+.button {
+    color: green;
+    border: 2px solid green;
+    border-radius: 7px;
+    width: 80px;
+    font-size: 21px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button:hover {
+    color: rgb(55, 121, 55);
+    border: 2px solid green;
+    background-color: rgb(216, 197, 197);
+    border-radius: 7px;
+    width: 80px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.landing-logo>img{
+    height: 400px;
+}

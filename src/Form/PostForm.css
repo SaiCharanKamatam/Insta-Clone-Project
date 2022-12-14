@@ -1,0 +1,58 @@
+.form-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    border: 1px solid black;
+    padding: 14px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+form > div{
+  width: 400px;
+  margin: 7px;
+}
+.author-location{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.author-location > input{
+   width: 40%;
+}
+
+.file-desc{
+    width: 95%;
+}
+.file-desc>input{
+    width: 98%;
+}
+
+.postButton{
+   width: 55px;
+   background-color: rgb(28, 25, 21);
+   border: none;
+   color: white;
+   padding: 6px;
+   cursor: pointer;
+   border-radius: 3px;
+}
+
+.postButton:hover{
+    width: 55px;
+    background-color: rgb(51, 38, 19);
+    border: none;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 3px;
+ }
